@@ -375,7 +375,7 @@ def parse_arguments(argv):
         help='your Garmin Connect username or email address (otherwise, you will be prompted)')
     parser.add_argument('--password',
         help='your Garmin Connect password (otherwise, you will be prompted)')
-    parser.add_argument('-c', '--count', default='1',
+    parser.add_argument('-c', '--count', default='all',
         help='number of recent activities to download, or \'all\' (default: 1)')
     parser.add_argument('-e', '--external',
         help='path to external program to pass CSV file too')
